@@ -1,0 +1,71 @@
+.container{
+border: solid black;
+background-color: yellowgreen;
+border-width: 5px;
+height:900px;
+font-weight: bold;
+}
+.Header{
+    border: solid black;
+    background-color: green;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.Menu{
+    border: solid black;
+    background-color:aqua;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Menu2{
+    border: solid black;
+    display: inline-block;
+    width: 15%;
+    background-color:rgb(53, 53, 179);
+    vertical-align: middle;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    
+    border: solid black;
+    display: inline-block;
+    width: 82%;
+    background-color:blueviolet;
+    vertical-align: middle;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+.Footer{
+    border: solid black;
+    background-color:orange ;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.HT{
+    display: inline-block;
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.MT{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
