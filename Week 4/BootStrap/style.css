@@ -1,0 +1,9 @@
+.container{
+    border: solid yellow;
+}
+.col-sm-1{
+    border: solid black;
+}
+.col-8{
+    border: solid red;
+}
