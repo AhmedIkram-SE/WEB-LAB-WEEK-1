@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { createContext } from 'react'
 import Child from './Child'
 import myparentImg from '../assets/Untitled.jpeg'
 import {Hooks} from './Hooks'
 
+const First=createContext();
 const Parent = () => {
   
   return (
@@ -11,9 +12,14 @@ const Parent = () => {
     <Child
     parentimg={myparentImg}
     />
+    <First.Provider value="Ahmed Ikram">
+    <Child/>
+    </First.Provider>
+    
     <Hooks/>
     </>
   )
 }
 
 export default Parent
+export {First};
